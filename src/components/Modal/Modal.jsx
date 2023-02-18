@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { createPortal } from 'react-dom';
 import { useEffect } from 'react';
 import { Overlay, ModalWindow, Img } from './Modal.styled';
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root');
 export const Modal = ({ dataImage, closeModal }) => {
   useEffect(() => {
     const handleEscpClick = e => {
